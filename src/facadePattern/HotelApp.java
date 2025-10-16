@@ -10,7 +10,7 @@ public class HotelApp {
     }
 
     public static void checkIn(FrontDesk frontDesk) {
-        // Assigned (simulated) values for a guest
+        
         String guestName = "Mr. Kim";
         String plateNumber = "NEU-1025";
         int roomNumber = 405;
