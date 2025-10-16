@@ -5,15 +5,15 @@ The HotelApp needs to manage various hotel services for guest check-in and check
 Class Definitions:
 HotelService (Interface): Defines the common interface for all hotel services.
 
-# Valet: A service class implementing the HotelService interface, responsible for vehicle valet parking and pick-up. It includes the pickUpVehicle(plateNumber) method.
+### Valet: A service class implementing the HotelService interface, responsible for vehicle valet parking and pick-up. It includes the pickUpVehicle(plateNumber) method.
 
-# HouseKeeping: A service class implementing the HotelService interface, responsible for room cleaning. It includes the cleanRoom(roomNumber) method.
+### HouseKeeping: A service class implementing the HotelService interface, responsible for room cleaning. It includes the cleanRoom(roomNumber) method.
 
-# Cart: A service class implementing the HotelService interface, responsible for handling luggage cart requests. It includes the requestCart(numberOfCarts) method.
+### Cart: A service class implementing the HotelService interface, responsible for handling luggage cart requests. It includes the requestCart(numberOfCarts) method.
 
-# FrontDesk: The facade class that coordinates interactions between the client (HotelApp) and the individual hotel services.
+### FrontDesk: The facade class that coordinates interactions between the client (HotelApp) and the individual hotel services.
 
-# HotelApp: The client class that uses the FrontDesk facade to access and utilize hotel services seamlessly.
+### HotelApp: The client class that uses the FrontDesk facade to access and utilize hotel services seamlessly.
 
 In your solution you must provide the following in your Github link account:
 
